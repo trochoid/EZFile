@@ -4,7 +4,7 @@ This is a simple class that wraps the process of saving or loading a struct or c
 
 
 
-To use...
+# To use...
 
 struct MyStruct : Codable { ... }  //mark your struct or class as Codable
 
@@ -20,7 +20,7 @@ if let b = EZFile.retrieveObject(MyStruct.self) {   //attempt to read object fro
 
 
 
-Operation...
+# Operation...
 
 Data is read and written to a single file in the users documents directory. Edit var filename to specify the file name.
 
