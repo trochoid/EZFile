@@ -12,7 +12,13 @@ let a = MyStruct()
 
 EZFile.storeObject(a)   //write object to file
 
-if let b = EZFile.retrieveObject(MyStruct.self) {   //attempt to read object from file
+if let b = {jj
+ blah
+} else {
+damn
+    }
+
+if let b = EZFile.retrieveObject(MyStruct.self) {   //attempt to read object from file 
     //Success! Now use b
 } else {
     //failed :(
