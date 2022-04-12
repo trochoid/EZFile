@@ -25,3 +25,13 @@ This is a simple class that wraps the process of saving or loading a struct or c
 Data is read and written to a single file in the users documents directory. Edit var filename to specify the file name.
 
 To store an object a JSONEncoder is used to convert your Codable object into a Data object, then the Data can be written to a file. To load an object it does the reverse.
+
+
+/*
+# some test
+and more
+    code?
+and close
+*/
+
+after
